@@ -5,9 +5,9 @@
 Implementieren Sie in Dart ein Programm zum Ausgeben und Vergleichen von Stundenplänen.
 Ihr Programm muss mindestens die drei folgenden Funktionen umfassen und mit dem
   gegebenen Code (siehe nächste Seite) kompatibel sein. 
-- a) printDaySchedule: Gibt den Stundenplan für einen bestimmten Tag in einer selbstgewählten Formatierung über die Konsole aus. 
-- b) printWeekSchedule: Gibt den Stundenplan für eine ganze Woche in einer selbstgewählten Formatierung über die Konsole aus. 
-- c) printWhenMensa: Vergleicht zwei Stundenpläne für einen gegebenen Wochentag.
+- a) **printDaySchedule**: Gibt den Stundenplan für einen bestimmten Tag in einer selbstgewählten Formatierung über die Konsole aus. 
+- b) **printWeekSchedule**: Gibt den Stundenplan für eine ganze Woche in einer selbstgewählten Formatierung über die Konsole aus. 
+- c) **printWhenMensa**: Vergleicht zwei Stundenpläne für einen gegebenen Wochentag.
       
 1. Bei Übereinstimmung werden die passenden DS für den gemeinsamen Mensagang ausgeben.
 2. Falls es keine Übereinstimmung gibt wird ausgegeben, dass ein Mensagang an diesem Tag nicht möglich ist.
