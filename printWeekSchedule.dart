@@ -1,4 +1,6 @@
 void printWeekSchedule(student) {
+  // Gibt die Überschrift aus.
+  print("Wochenplan");
   // Tabellenkopf
   print("+" + "-" * 14 + "+" + "-" * 47 + "+");
   print("|   Wochentag  |  Stundenplan " + " " * 33 + "|");
@@ -20,5 +22,5 @@ void printWeekSchedule(student) {
     print("| ${day.padLeft(7).padRight(12)} | ${timetable.padRight(45)} |");
   });
   // Tabellenfuß
-  print("+" + "-" * 14 + "+" + "-" * 47 + "+");
+  print("+" + "-" * 14 + "+" + "-" * 47 + "+" + "\n");
 }
